@@ -2,7 +2,7 @@ var indexSectionsWithContent =
 {
   0: "cfgprsu",
   1: "cu",
-  2: "fgpr",
+  2: "fgpru",
   3: "s"
 };
 

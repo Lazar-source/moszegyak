@@ -1,8 +1,8 @@
 var indexSectionsWithContent =
 {
-  0: "cfgrsu",
+  0: "cfgprsu",
   1: "cu",
-  2: "fgru",
+  2: "fgpru",
   3: "s"
 };
 

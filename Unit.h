@@ -34,8 +34,6 @@ public:
 	int getHp() const; 
 	//! Simple Getter for hp
     /*!
-      \param a an integer argument.
-      \param s a constant character pointer.
       \return  const integer hp value
      
     */
@@ -54,14 +52,14 @@ public:
     /*!
 	 \return   const double atkcooldown value
 	*/
-	void Fight( Unit* enemy/**[in] Unit Objects pointer */);  ///<Method that implements the Fight between two Unit object
+	void Fight( Unit* enemy);  
 	//! Method that implements the Fight between two Unit object
     /*!
 	 \return  double atkcooldown value
 	 \param enemy Unit Objects pointer
 	*/
 	Unit(const int& h, const int& d, const std::string& n, const double& a) : hp(h), dmg(d), name(n), atkcooldown(a){} ///<Constructor
-	static Unit* parseUnit(const std::string& filename/**[in] json file's name that the method parses*/);
+	static Unit* parseUnit(const std::string& filename);
 	//!Method that parse Units Json files and return the generated Unit Object with the parsed data
 	/*!
 	 \return  Unit Object with the parsed data

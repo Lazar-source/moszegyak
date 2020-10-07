@@ -6,7 +6,7 @@ on:
     -attackspeed
     -gh-pages 
 jobs:
-  GenerateDocument:
+  
         deploy:
         runs-on: ubuntu-latest
         steps:
